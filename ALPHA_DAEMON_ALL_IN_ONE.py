@@ -20,7 +20,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from urllib.parse import urlparse
 from urllib.request import Request, urlopen
-import argparse, ast, difflib, hashlib, json, random, re, shutil, statistics, subprocess, sys, time
+import argparse, ast, difflib, hashlib, json, random, re, statistics, subprocess, sys, time, py_compile
 
 # ---------- WORLD ----------
 
