@@ -1,0 +1,16 @@
+{
+  "real_alpha_run_returncode": 0,
+  "proposal_engine_returncode": 0,
+  "diagnoses_and_proposals_stdout": "{\n  \"diagnoses\": [],\n  \"proposals\": 0\n}\n",
+  "proposals_generated": 0,
+  "daemon_returncode": 0,
+  "daemon_stdout": "{\n  \"cycle\": 2,\n  \"accepted_version\": \"baseline\",\n  \"accepted\": 0,\n  \"rejected\": 2\n}\n",
+  "daemon_state": {
+    "cycle": 2,
+    "accepted_version": "baseline",
+    "accepted": 0,
+    "rejected": 2
+  },
+  "adoption_rule": "candidate must improve both fixed external train and held-out scores",
+  "external_evaluator_editable": false
+}

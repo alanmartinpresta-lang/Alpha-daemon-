@@ -1,0 +1,9 @@
+{
+  "mode": "diagnostic_driven_self_improvement",
+  "experience_log": "ALPHA_GENESIS_LIFELOG.jsonl",
+  "experience_records_read": 4020,
+  "diagnoses": [],
+  "candidate_patches": [],
+  "adopted": false,
+  "adoption_rule": "external held-out behavioral improvement required"
+}

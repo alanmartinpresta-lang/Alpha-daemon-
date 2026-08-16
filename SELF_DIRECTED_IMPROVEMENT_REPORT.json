@@ -1,0 +1,67 @@
+{
+  "experiment": "Self-directed code improvement",
+  "base": "Alpha_Genesis3_OpenWorld_Run2_Validated",
+  "training_seeds": [
+    101,
+    202
+  ],
+  "training_steps_each": 150,
+  "held_out_seeds": [
+    404,
+    505
+  ],
+  "held_out_steps_each": 200,
+  "candidates": {
+    "lower_uncertainty": [
+      1.0909538602073077,
+      1.1500219975198833
+    ],
+    "higher_discount": [
+      1.0945280533889512,
+      1.1494122367422732
+    ],
+    "lower_learning_rate": [
+      1.0945280533889512,
+      1.1503850942056215
+    ]
+  },
+  "baseline_train_mean": 1.1125227489871343,
+  "selected": "lower_learning_rate",
+  "selected_value": 0.12,
+  "selected_train_mean": 1.1224565737972863,
+  "baseline_holdout_mean": 1.1889410193211019,
+  "selected_holdout_mean": 1.1994924955037938,
+  "holdout_relative_improvement_percent": 0.8874684287297097,
+  "holdout_details": {
+    "baseline": [
+      {
+        "cum_reward": 1.202226397953543,
+        "mean_reward": 0.006011131989767715,
+        "min_reward": -0.06414666601154517,
+        "alive": true
+      },
+      {
+        "cum_reward": 1.175655640688661,
+        "mean_reward": 0.0058782782034433045,
+        "min_reward": -0.0642721759657604,
+        "alive": true
+      }
+    ],
+    "selected": [
+      {
+        "cum_reward": 1.2019376883400978,
+        "mean_reward": 0.006009688441700489,
+        "min_reward": -0.06414726010585114,
+        "alive": true
+      },
+      {
+        "cum_reward": 1.19704730266749,
+        "mean_reward": 0.0059852365133374495,
+        "min_reward": -0.06419968038707358,
+        "alive": true
+      }
+    ]
+  },
+  "adopted": true,
+  "important_scope_note": "The proposal generator is a bounded self-directed controller, not ChatGPT weights or unrestricted program synthesis. The evaluator and environment remain external."
+}

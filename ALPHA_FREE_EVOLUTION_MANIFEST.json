@@ -1,0 +1,11 @@
+{
+  "environment": "simple_tron_like_grid",
+  "environment_role": "substrate_only",
+  "scenario": null,
+  "alpha_project_read_write": true,
+  "self_modification_scope": "entire_project_inside_sandbox",
+  "external_evaluator_immutable": true,
+  "host_access": false,
+  "candidate_validation": "fresh_grid_seeds",
+  "subject": "Alpha"
+}

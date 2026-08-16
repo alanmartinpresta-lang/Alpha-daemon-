@@ -1,0 +1,90 @@
+{
+  "scope": "Alpha's actual aire/ source tree",
+  "candidate_count": 8,
+  "compiled_count": 8,
+  "runs": [
+    {
+      "type": "baseline",
+      "result": {
+        "status": "ok",
+        "returncode": 0,
+        "stdout_tail": "{\n  \"start_time\": 0.0,\n  \"end_time\": 20.0,\n  \"advanced\": 20.0,\n  \"alive\": true,\n  \"autobiography\": 20,\n  \"short_memory\": 20,\n  \"digest\": \"68daa101833f5c9004b971da9cadd4cab313b244a2400773dfea0e7b3fea5d13\",\n  \"checkpoint\": \"ALPHA_GENESIS.aire\",\n  \"log\": \"ALPHA_GENESIS_LIFELOG.jsonl\"\n}\n",
+        "stderr_tail": "nt call last):\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py\", line 26, in warm_spreadsheet_runtime_on_startup\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 785, in warm_spreadsheet_runtime\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 720, in _warm_feature_flows\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 704, in _warm_collaboration_flows\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py\", line 32317, in hydrate_crdt_from_proto\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py\", line 749, in __call__\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py\", line 150, in call\nartifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.\n"
+      }
+    },
+    {
+      "type": "candidate",
+      "candidate": {
+        "candidate": 1,
+        "file": "aire/alpha_self_editor.py",
+        "line": 86,
+        "old": 1.0,
+        "new": 0.95,
+        "compiled": true,
+        "error": null
+      },
+      "result": {
+        "status": "ok",
+        "returncode": 0,
+        "stdout_tail": "{\n  \"start_time\": 0.0,\n  \"end_time\": 20.0,\n  \"advanced\": 20.0,\n  \"alive\": true,\n  \"autobiography\": 20,\n  \"short_memory\": 20,\n  \"digest\": \"68daa101833f5c9004b971da9cadd4cab313b244a2400773dfea0e7b3fea5d13\",\n  \"checkpoint\": \"ALPHA_GENESIS.aire\",\n  \"log\": \"ALPHA_GENESIS_LIFELOG.jsonl\"\n}\n",
+        "stderr_tail": "nt call last):\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py\", line 26, in warm_spreadsheet_runtime_on_startup\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 785, in warm_spreadsheet_runtime\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 720, in _warm_feature_flows\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 704, in _warm_collaboration_flows\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py\", line 32317, in hydrate_crdt_from_proto\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py\", line 749, in __call__\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py\", line 150, in call\nartifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.\n"
+      }
+    },
+    {
+      "type": "candidate",
+      "candidate": {
+        "candidate": 1,
+        "file": "aire/alpha_self_editor.py",
+        "line": 86,
+        "old": 1.0,
+        "new": 1.05,
+        "compiled": true,
+        "error": null
+      },
+      "result": {
+        "status": "ok",
+        "returncode": 0,
+        "stdout_tail": "{\n  \"start_time\": 0.0,\n  \"end_time\": 20.0,\n  \"advanced\": 20.0,\n  \"alive\": true,\n  \"autobiography\": 20,\n  \"short_memory\": 20,\n  \"digest\": \"68daa101833f5c9004b971da9cadd4cab313b244a2400773dfea0e7b3fea5d13\",\n  \"checkpoint\": \"ALPHA_GENESIS.aire\",\n  \"log\": \"ALPHA_GENESIS_LIFELOG.jsonl\"\n}\n",
+        "stderr_tail": "nt call last):\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py\", line 26, in warm_spreadsheet_runtime_on_startup\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 785, in warm_spreadsheet_runtime\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 720, in _warm_feature_flows\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 704, in _warm_collaboration_flows\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py\", line 32317, in hydrate_crdt_from_proto\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py\", line 749, in __call__\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py\", line 150, in call\nartifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.\n"
+      }
+    },
+    {
+      "type": "candidate",
+      "candidate": {
+        "candidate": 2,
+        "file": "aire/self_directed_improver.py",
+        "line": 21,
+        "old": 0.05,
+        "new": 0.0475,
+        "compiled": true,
+        "error": null
+      },
+      "result": {
+        "status": "ok",
+        "returncode": 0,
+        "stdout_tail": "{\n  \"start_time\": 0.0,\n  \"end_time\": 20.0,\n  \"advanced\": 20.0,\n  \"alive\": true,\n  \"autobiography\": 20,\n  \"short_memory\": 20,\n  \"digest\": \"68daa101833f5c9004b971da9cadd4cab313b244a2400773dfea0e7b3fea5d13\",\n  \"checkpoint\": \"ALPHA_GENESIS.aire\",\n  \"log\": \"ALPHA_GENESIS_LIFELOG.jsonl\"\n}\n",
+        "stderr_tail": "nt call last):\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py\", line 26, in warm_spreadsheet_runtime_on_startup\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 785, in warm_spreadsheet_runtime\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 720, in _warm_feature_flows\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 704, in _warm_collaboration_flows\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py\", line 32317, in hydrate_crdt_from_proto\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py\", line 749, in __call__\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py\", line 150, in call\nartifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.\n"
+      }
+    },
+    {
+      "type": "candidate",
+      "candidate": {
+        "candidate": 2,
+        "file": "aire/self_directed_improver.py",
+        "line": 21,
+        "old": 0.05,
+        "new": 0.052500000000000005,
+        "compiled": true,
+        "error": null
+      },
+      "result": {
+        "status": "ok",
+        "returncode": 0,
+        "stdout_tail": "{\n  \"start_time\": 0.0,\n  \"end_time\": 20.0,\n  \"advanced\": 20.0,\n  \"alive\": true,\n  \"autobiography\": 20,\n  \"short_memory\": 20,\n  \"digest\": \"68daa101833f5c9004b971da9cadd4cab313b244a2400773dfea0e7b3fea5d13\",\n  \"checkpoint\": \"ALPHA_GENESIS.aire\",\n  \"log\": \"ALPHA_GENESIS_LIFELOG.jsonl\"\n}\n",
+        "stderr_tail": "nt call last):\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py\", line 26, in warm_spreadsheet_runtime_on_startup\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 785, in warm_spreadsheet_runtime\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 720, in _warm_feature_flows\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 704, in _warm_collaboration_flows\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py\", line 32317, in hydrate_crdt_from_proto\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py\", line 749, in __call__\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py\", line 150, in call\nartifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.\n"
+      }
+    }
+  ],
+  "adopted": false,
+  "reason": "No candidate is adopted unless a real behavioral comparison passes on held-out runs."
+}

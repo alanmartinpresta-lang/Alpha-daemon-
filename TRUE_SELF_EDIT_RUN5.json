@@ -1,0 +1,17 @@
+{
+  "experiment": "Alpha reflection memory wiring",
+  "records_written": 120,
+  "diagnostic_output": {
+    "records": 120,
+    "mean_abs_prediction_error": 0.2075,
+    "mean_reward": 0.07749999999999997,
+    "signals": [
+      {
+        "type": "prediction_instability",
+        "mean_abs_error": 0.2075
+      }
+    ]
+  },
+  "adopted": false,
+  "note": "Synthetic wiring test only; no autonomous Alpha discovery is claimed."
+}

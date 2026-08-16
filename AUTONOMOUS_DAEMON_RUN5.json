@@ -1,0 +1,16 @@
+{
+  "compile_errors": [],
+  "standalone_returncode": 0,
+  "standalone_stdout": "{\n  \"steps\": 200,\n  \"alive\": null,\n  \"time\": 200.0,\n  \"log\": \"ALPHA_STANDALONE_LIFE.jsonl\"\n}\n",
+  "daemon_returncode": 0,
+  "daemon_stdout": "{\n  \"cycle\": 13,\n  \"accepted_version\": \"baseline\",\n  \"accepted\": 0,\n  \"rejected\": 10\n}\n",
+  "daemon_state": {
+    "cycle": 13,
+    "accepted_version": "baseline",
+    "accepted": 0,
+    "rejected": 10
+  },
+  "proposal_file_present": false,
+  "external_evaluator_editable": false,
+  "runtime": "standalone_alpha_world"
+}

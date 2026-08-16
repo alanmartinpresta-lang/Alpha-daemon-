@@ -1,0 +1,14 @@
+{"cycle":3,"status":"self_evaluation","cycles":0,"accepted":0,"rejected":0,"holdout_mean":null,"holdout_delta":0.0,"stagnant":false,"should_enter_improvement_phase":false}
+{"cycle":4,"status":"self_evaluation","cycles":1,"accepted":0,"rejected":0,"holdout_mean":null,"holdout_delta":0.0,"stagnant":false,"should_enter_improvement_phase":false}
+{"cycle":5,"status":"self_evaluation","cycles":2,"accepted":0,"rejected":0,"holdout_mean":null,"holdout_delta":0.0,"stagnant":false,"should_enter_improvement_phase":false}
+{"cycle":6,"status":"self_evaluation","cycles":3,"accepted":0,"rejected":0,"holdout_mean":null,"holdout_delta":0.0,"stagnant":false,"should_enter_improvement_phase":false}
+{"cycle":7,"status":"self_evaluation","cycles":4,"accepted":0,"rejected":0,"holdout_mean":null,"holdout_delta":0.0,"stagnant":false,"should_enter_improvement_phase":false}
+{"cycle":8,"status":"self_evaluation","cycles":5,"accepted":0,"rejected":0,"holdout_mean":null,"holdout_delta":0.0,"stagnant":false,"should_enter_improvement_phase":false}
+{"cycle":9,"status":"self_evaluation","cycles":6,"accepted":0,"rejected":0,"holdout_mean":null,"holdout_delta":0.0,"stagnant":false,"should_enter_improvement_phase":false}
+{"cycle":10,"status":"self_evaluation","cycles":7,"accepted":0,"rejected":0,"holdout_mean":null,"holdout_delta":0.0,"stagnant":false,"should_enter_improvement_phase":false}
+{"cycle":11,"status":"self_evaluation","cycles":8,"accepted":0,"rejected":0,"holdout_mean":null,"holdout_delta":0.0,"stagnant":true,"should_enter_improvement_phase":true}
+{"cycle":11,"status":"waiting_for_alpha_proposal","parent_score":0.01,"version":"5a0cd2330846a7f4"}
+{"cycle":12,"status":"self_evaluation","cycles":8,"accepted":0,"rejected":0,"holdout_mean":null,"holdout_delta":0.0,"stagnant":true,"should_enter_improvement_phase":true}
+{"cycle":12,"status":"waiting_for_alpha_proposal","parent_score":0.01,"version":"5a0cd2330846a7f4"}
+{"cycle":13,"status":"self_evaluation","cycles":8,"accepted":0,"rejected":0,"holdout_mean":null,"holdout_delta":0.0,"stagnant":true,"should_enter_improvement_phase":true}
+{"cycle":13,"status":"waiting_for_alpha_proposal","parent_score":0.01,"version":"5a0cd2330846a7f4"}

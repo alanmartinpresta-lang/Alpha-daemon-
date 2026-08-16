@@ -1,0 +1,27 @@
+{
+  "compile_errors": [],
+  "returncode": 0,
+  "records": 50,
+  "first_record": {
+    "time": 1.0,
+    "alive": true,
+    "action": "move_x+",
+    "reward": 1.0,
+    "memory": 1,
+    "short_memory": 1,
+    "digest": "aa55bad8fa060fec244f90b6d88224ccb9b0cdba31902b99163cf66a52464e78"
+  },
+  "last_record": {
+    "time": 50.0,
+    "alive": true,
+    "action": "move_y-",
+    "reward": -0.06416561563907341,
+    "memory": 50,
+    "short_memory": 50,
+    "digest": "d01e1769c334cfa6cf46c4a8669d4cd9538276b9d0807845c589f12be6f444ab"
+  },
+  "stderr_tail": "Spreadsheet runtime warmup failed during python startup\nTraceback (most recent call last):\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py\", line 26, in warm_spreadsheet_runtime_on_startup\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 785, in warm_spreadsheet_runtime\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 720, in _warm_feature_flows\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 704, in _warm_collaboration_flows\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py\", line 32317, in hydrate_crdt_from_proto\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py\", line 749, in __call__\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py\", line 150, in call\nartifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.\n",
+  "stdout_tail": "{\n  \"start_time\": 0.0,\n  \"end_time\": 50.0,\n  \"advanced\": 50.0,\n  \"alive\": true,\n  \"autobiography\": 50,\n  \"short_memory\": 50,\n  \"digest\": \"d01e1769c334cfa6cf46c4a8669d4cd9538276b9d0807845c589f12be6f444ab\",\n  \"checkpoint\": \"ALPHA_REAL_RUN.aire\",\n  \"log\": \"ALPHA_REFLECTION_REAL_RUN.jsonl\"\n}\n",
+  "prediction_fields": 0,
+  "note": "These reflection records are from the actual Genesis 3 StepReport. Prediction is null because Genesis 3 does not expose a prediction field yet."
+}

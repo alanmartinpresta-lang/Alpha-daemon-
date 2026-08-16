@@ -1,0 +1,1101 @@
+[
+  {
+    "path": "ALPHA_GRID_WORLD.py",
+    "lines": 38,
+    "functions": [
+      "__init__",
+      "observe",
+      "step"
+    ],
+    "classes": [
+      "Cell",
+      "GridWorld"
+    ]
+  },
+  {
+    "path": "aire/__init__.py",
+    "lines": 3,
+    "functions": [],
+    "classes": []
+  },
+  {
+    "path": "aire/alpha_world.py",
+    "lines": 565,
+    "functions": [
+      "create_alpha_world",
+      "__post_init__",
+      "__init__",
+      "time",
+      "state",
+      "_cell_for_position",
+      "_local_environment",
+      "sense",
+      "_nearest_object",
+      "_material_action",
+      "_resolve_material_contacts",
+      "step",
+      "__getstate__",
+      "__setstate__",
+      "save_checkpoint",
+      "load_checkpoint",
+      "digest"
+    ],
+    "classes": [
+      "AlphaStepReport",
+      "MaterialObject",
+      "AlphaWorld"
+    ]
+  },
+  {
+    "path": "aire/alpha_self_editor.py",
+    "lines": 111,
+    "functions": [
+      "__init__",
+      "source_files",
+      "inventory",
+      "propose_constant_mutation",
+      "compile_candidate",
+      "adopt",
+      "rollback",
+      "save_manifest"
+    ],
+    "classes": [
+      "Candidate",
+      "SelfEditor"
+    ]
+  },
+  {
+    "path": "aire/self_directed_improver.py",
+    "lines": 35,
+    "functions": [
+      "propose",
+      "select"
+    ],
+    "classes": [
+      "Diagnostic"
+    ]
+  },
+  {
+    "path": "aire/run_alpha_genesis.py",
+    "lines": 54,
+    "functions": [
+      "main"
+    ],
+    "classes": []
+  },
+  {
+    "path": "aire/run_alpha.py",
+    "lines": 3,
+    "functions": [],
+    "classes": []
+  },
+  {
+    "path": "aire/universe/core.py",
+    "lines": 411,
+    "functions": [
+      "_finite_vec3",
+      "__post_init__",
+      "__post_init__",
+      "contains",
+      "to_local",
+      "to_world",
+      "validate",
+      "__post_init__",
+      "advance",
+      "__post_init__",
+      "moved",
+      "__post_init__",
+      "append",
+      "since",
+      "__post_init__",
+      "add",
+      "ancestors",
+      "__post_init__",
+      "define",
+      "get",
+      "__post_init__",
+      "add_object",
+      "update_object",
+      "remove_object",
+      "state_digest",
+      "__init__",
+      "state",
+      "add_object",
+      "add_law",
+      "emit",
+      "step",
+      "snapshot"
+    ],
+    "classes": [
+      "WorldIdentity",
+      "Space3D",
+      "SimulationClock",
+      "WorldObject",
+      "WorldEvent",
+      "EventLog",
+      "CausalLedger",
+      "LawRegistry",
+      "WorldState",
+      "WorldCore"
+    ]
+  },
+  {
+    "path": "aire/universe/__init__.py",
+    "lines": 20,
+    "functions": [],
+    "classes": []
+  },
+  {
+    "path": "aire/universe/organism.py",
+    "lines": 403,
+    "functions": [
+      "_finite",
+      "_nonneg",
+      "_bounded",
+      "_vec3",
+      "mutate_genome",
+      "create_organism",
+      "sense_environment",
+      "_integrate_orientation",
+      "step_organism",
+      "create_offspring",
+      "attach_organism",
+      "__post_init__",
+      "__post_init__",
+      "__post_init__",
+      "__post_init__",
+      "__post_init__",
+      "__post_init__",
+      "digest",
+      "mutate",
+      "__post_init__",
+      "digest",
+      "__init__",
+      "state",
+      "step"
+    ],
+    "classes": [
+      "Anatomy",
+      "OrganSystems",
+      "SensorState",
+      "FunctionalState",
+      "MotorCommand",
+      "Genome",
+      "OrganismState",
+      "OrganismWorld"
+    ]
+  },
+  {
+    "path": "aire/universe/u2_consolidated.py",
+    "lines": 386,
+    "functions": [
+      "_field",
+      "initialize_u2_dynamics",
+      "_gradient",
+      "_lap",
+      "_conservative_diffuse",
+      "step_u2_dynamics",
+      "attach_u2_dynamics",
+      "__post_init__",
+      "__post_init__",
+      "digest",
+      "total_water_volume",
+      "certified_step",
+      "__init__",
+      "state",
+      "step"
+    ],
+    "classes": [
+      "U2DynamicsConfig",
+      "U2DynamicsState",
+      "U2ConsolidatedReport",
+      "ConsolidatedEnvironmentWorld"
+    ]
+  },
+  {
+    "path": "aire/universe/agent.py",
+    "lines": 277,
+    "functions": [
+      "_clip01",
+      "sensor_vector",
+      "discretize_observation",
+      "state_key",
+      "homeostatic_score",
+      "homeostatic_reward",
+      "action_command",
+      "_ensure",
+      "choose_action",
+      "learn",
+      "autonomy_digest",
+      "__setstate__",
+      "__post_init__",
+      "__post_init__"
+    ],
+    "classes": [
+      "Experience",
+      "AutonomyConfig",
+      "AutonomyState"
+    ]
+  },
+  {
+    "path": "aire/universe/biology.py",
+    "lines": 376,
+    "functions": [
+      "_finite_nonnegative",
+      "_bounded",
+      "create_biology",
+      "_metabolism",
+      "exchange_compartments",
+      "step_biology",
+      "attach_biology",
+      "__post_init__",
+      "__post_init__",
+      "elemental_total_mass_kg",
+      "digest",
+      "__post_init__",
+      "__post_init__",
+      "total_biomass",
+      "total_water",
+      "total_atp",
+      "digest",
+      "__init__",
+      "state",
+      "step"
+    ],
+    "classes": [
+      "BiologicalParameters",
+      "BiologicalCompartment",
+      "PhysiologicalRegulation",
+      "BiologicalState",
+      "BiologyWorld"
+    ]
+  },
+  {
+    "path": "aire/universe/persistence.py",
+    "lines": 299,
+    "functions": [
+      "_encode",
+      "_decode_array",
+      "_object_to_dict",
+      "_object_from_dict",
+      "serialize_world",
+      "deserialize_world",
+      "canonical_world_json",
+      "compare_worlds",
+      "serialize_commands",
+      "deserialize_commands",
+      "capture",
+      "restore",
+      "save",
+      "load",
+      "__init__",
+      "state",
+      "_record",
+      "add_object",
+      "update_object",
+      "remove_object",
+      "emit",
+      "step",
+      "checkpoint",
+      "branch",
+      "replay",
+      "command_log_payload",
+      "save_command_log",
+      "load_command_log",
+      "replay_from_commands",
+      "branch_comparison",
+      "command_log"
+    ],
+    "classes": [
+      "WorldCheckpoint",
+      "WorldCommand",
+      "WorldSession"
+    ]
+  },
+  {
+    "path": "aire/universe/environment.py",
+    "lines": 531,
+    "functions": [
+      "_finite_nonnegative",
+      "_terrain",
+      "_latitude",
+      "_solar_field",
+      "_hydrograph",
+      "create_environment",
+      "_laplacian",
+      "_classify_biomes",
+      "step_environment",
+      "attach_environment",
+      "__post_init__",
+      "__setstate__",
+      "__setstate__",
+      "__post_init__",
+      "shape",
+      "water_volume",
+      "water_mass_kg",
+      "mean_temperature",
+      "digest",
+      "certified_step",
+      "__init__",
+      "state",
+      "step"
+    ],
+    "classes": [
+      "PlanetConfig",
+      "EnvironmentState",
+      "EnvironmentStepReport",
+      "EnvironmentWorld"
+    ]
+  },
+  {
+    "path": "aire/universe/chemistry.py",
+    "lines": 270,
+    "functions": [
+      "_field",
+      "_arrhenius",
+      "create_chemistry",
+      "reaction_rates",
+      "step_chemistry",
+      "attach_chemistry",
+      "__post_init__",
+      "__post_init__",
+      "stoich",
+      "__post_init__",
+      "names",
+      "mass_balance",
+      "charge_balance",
+      "__post_init__",
+      "shape",
+      "total_moles",
+      "total_mass",
+      "total_charge",
+      "digest",
+      "__init__",
+      "state",
+      "step"
+    ],
+    "classes": [
+      "ChemicalSpecies",
+      "ChemicalReaction",
+      "ChemistryNetwork",
+      "ChemistryState",
+      "ChemistryWorld"
+    ]
+  },
+  {
+    "path": "aire/universe/u5_consolidated.py",
+    "lines": 319,
+    "functions": [
+      "_nn",
+      "_bounded",
+      "create_u5_consolidated",
+      "_apply_relation_effects",
+      "_apply_evolution",
+      "step_u5_consolidated",
+      "_attach_consolidated",
+      "__post_init__",
+      "totals",
+      "digest",
+      "__post_init__",
+      "__post_init__",
+      "__post_init__",
+      "digest",
+      "__init__",
+      "state",
+      "step"
+    ],
+    "classes": [
+      "BiogeochemicalPools",
+      "EcologicalRelation",
+      "EvolutionTrait",
+      "U5ConsolidatedState",
+      "ConsolidatedEcologyWorld"
+    ]
+  },
+  {
+    "path": "aire/universe/energy.py",
+    "lines": 115,
+    "functions": [
+      "__post_init__",
+      "__post_init__",
+      "__post_init__",
+      "total_stored_j",
+      "total_heat_loss_j",
+      "total_external_work_j",
+      "balance_residual_j",
+      "digest",
+      "assert_balanced"
+    ],
+    "classes": [
+      "EnergyReservoir",
+      "EnergyTransfer",
+      "EnergyLedger"
+    ]
+  },
+  {
+    "path": "aire/universe/interdomain_uptake.py",
+    "lines": 125,
+    "functions": [
+      "_nn",
+      "_take_soil_batch",
+      "_take_cycle",
+      "step_nutrient_mineral_uptake"
+    ],
+    "classes": [
+      "UptakeReport"
+    ]
+  },
+  {
+    "path": "aire/universe/si_soils.py",
+    "lines": 96,
+    "functions": [
+      "_field",
+      "_maps_equal",
+      "create_soil_minerals",
+      "step_soil_minerals",
+      "__post_init__",
+      "total_mineral_mass_kg",
+      "total_exported_mass_kg",
+      "initial_tracked_mass_kg",
+      "digest"
+    ],
+    "classes": [
+      "SoilMineralState"
+    ]
+  },
+  {
+    "path": "aire/universe/v201_atmospheric_chemistry.py",
+    "lines": 120,
+    "functions": [
+      "_network",
+      "_gas_volume",
+      "_masses",
+      "_element_mass_kg",
+      "step_atmospheric_chemistry"
+    ],
+    "classes": [
+      "AtmosphericChemistryReport"
+    ]
+  },
+  {
+    "path": "aire/universe/world_closure_v192.py",
+    "lines": 207,
+    "functions": [
+      "_nn",
+      "_transfer_material",
+      "transfer_biomass_to_ecology",
+      "transfer_waste_to_ecology",
+      "step_full_material_energy_closure",
+      "__post_init__",
+      "mass_split",
+      "__post_init__",
+      "digest",
+      "__post_init__",
+      "total_j",
+      "digest",
+      "apply_respiration"
+    ],
+    "classes": [
+      "MatterComposition",
+      "MatterClosureState",
+      "EnergyClosureState",
+      "V192ClosureReport",
+      "FullClosureReport"
+    ]
+  },
+  {
+    "path": "aire/universe/interdomain_metabolism.py",
+    "lines": 254,
+    "functions": [
+      "_nn",
+      "_species",
+      "_remove_kg",
+      "_add_kg",
+      "_transfer_o2_from_environment",
+      "_add_environment_water",
+      "_balanced_contract_check",
+      "step_coupled_respiration",
+      "transfer_co2_to_ecology",
+      "__post_init__"
+    ],
+    "classes": [
+      "RespirationContract",
+      "CoupledMetabolismReport",
+      "CarbonTransferReport"
+    ]
+  },
+  {
+    "path": "aire/universe/physical_coupling.py",
+    "lines": 81,
+    "functions": [
+      "_amount",
+      "transfer_environment_to_biology"
+    ],
+    "classes": [
+      "PhysicalTransferReport"
+    ]
+  },
+  {
+    "path": "aire/universe/ecology.py",
+    "lines": 284,
+    "functions": [
+      "_nn",
+      "_frac",
+      "create_ecology",
+      "step_ecology",
+      "attach_ecology",
+      "__post_init__",
+      "digest",
+      "__post_init__",
+      "digest",
+      "__post_init__",
+      "__post_init__",
+      "total_population",
+      "total_resource",
+      "digest",
+      "__init__",
+      "state",
+      "step"
+    ],
+    "classes": [
+      "EcologicalResource",
+      "EcologicalPopulation",
+      "PredationLink",
+      "EcologyState",
+      "EcologyWorld"
+    ]
+  },
+  {
+    "path": "aire/universe/interdomain_world.py",
+    "lines": 38,
+    "functions": [
+      "step_integrated_flux"
+    ],
+    "classes": [
+      "IntegratedFluxReport"
+    ]
+  },
+  {
+    "path": "aire/aire_tmp/__init__.py",
+    "lines": 3,
+    "functions": [],
+    "classes": []
+  },
+  {
+    "path": "aire/aire_tmp/alpha_world.py",
+    "lines": 449,
+    "functions": [
+      "create_alpha_world",
+      "__init__",
+      "time",
+      "state",
+      "_cell_for_position",
+      "_local_environment",
+      "sense",
+      "step",
+      "__getstate__",
+      "__setstate__",
+      "save_checkpoint",
+      "load_checkpoint",
+      "digest"
+    ],
+    "classes": [
+      "AlphaStepReport",
+      "AlphaWorld"
+    ]
+  },
+  {
+    "path": "aire/aire_tmp/run_alpha.py",
+    "lines": 44,
+    "functions": [
+      "main"
+    ],
+    "classes": []
+  },
+  {
+    "path": "aire/aire_tmp/universe/core.py",
+    "lines": 411,
+    "functions": [
+      "_finite_vec3",
+      "__post_init__",
+      "__post_init__",
+      "contains",
+      "to_local",
+      "to_world",
+      "validate",
+      "__post_init__",
+      "advance",
+      "__post_init__",
+      "moved",
+      "__post_init__",
+      "append",
+      "since",
+      "__post_init__",
+      "add",
+      "ancestors",
+      "__post_init__",
+      "define",
+      "get",
+      "__post_init__",
+      "add_object",
+      "update_object",
+      "remove_object",
+      "state_digest",
+      "__init__",
+      "state",
+      "add_object",
+      "add_law",
+      "emit",
+      "step",
+      "snapshot"
+    ],
+    "classes": [
+      "WorldIdentity",
+      "Space3D",
+      "SimulationClock",
+      "WorldObject",
+      "WorldEvent",
+      "EventLog",
+      "CausalLedger",
+      "LawRegistry",
+      "WorldState",
+      "WorldCore"
+    ]
+  },
+  {
+    "path": "aire/aire_tmp/universe/__init__.py",
+    "lines": 20,
+    "functions": [],
+    "classes": []
+  },
+  {
+    "path": "aire/aire_tmp/universe/organism.py",
+    "lines": 403,
+    "functions": [
+      "_finite",
+      "_nonneg",
+      "_bounded",
+      "_vec3",
+      "mutate_genome",
+      "create_organism",
+      "sense_environment",
+      "_integrate_orientation",
+      "step_organism",
+      "create_offspring",
+      "attach_organism",
+      "__post_init__",
+      "__post_init__",
+      "__post_init__",
+      "__post_init__",
+      "__post_init__",
+      "__post_init__",
+      "digest",
+      "mutate",
+      "__post_init__",
+      "digest",
+      "__init__",
+      "state",
+      "step"
+    ],
+    "classes": [
+      "Anatomy",
+      "OrganSystems",
+      "SensorState",
+      "FunctionalState",
+      "MotorCommand",
+      "Genome",
+      "OrganismState",
+      "OrganismWorld"
+    ]
+  },
+  {
+    "path": "aire/aire_tmp/universe/u2_consolidated.py",
+    "lines": 386,
+    "functions": [
+      "_field",
+      "initialize_u2_dynamics",
+      "_gradient",
+      "_lap",
+      "_conservative_diffuse",
+      "step_u2_dynamics",
+      "attach_u2_dynamics",
+      "__post_init__",
+      "__post_init__",
+      "digest",
+      "total_water_volume",
+      "certified_step",
+      "__init__",
+      "state",
+      "step"
+    ],
+    "classes": [
+      "U2DynamicsConfig",
+      "U2DynamicsState",
+      "U2ConsolidatedReport",
+      "ConsolidatedEnvironmentWorld"
+    ]
+  },
+  {
+    "path": "aire/aire_tmp/universe/agent.py",
+    "lines": 277,
+    "functions": [
+      "_clip01",
+      "sensor_vector",
+      "discretize_observation",
+      "state_key",
+      "homeostatic_score",
+      "homeostatic_reward",
+      "action_command",
+      "_ensure",
+      "choose_action",
+      "learn",
+      "autonomy_digest",
+      "__setstate__",
+      "__post_init__",
+      "__post_init__"
+    ],
+    "classes": [
+      "Experience",
+      "AutonomyConfig",
+      "AutonomyState"
+    ]
+  },
+  {
+    "path": "aire/aire_tmp/universe/biology.py",
+    "lines": 375,
+    "functions": [
+      "_finite_nonnegative",
+      "_bounded",
+      "create_biology",
+      "_metabolism",
+      "exchange_compartments",
+      "step_biology",
+      "attach_biology",
+      "__post_init__",
+      "__post_init__",
+      "elemental_total_mass_kg",
+      "digest",
+      "__post_init__",
+      "__post_init__",
+      "total_biomass",
+      "total_water",
+      "total_atp",
+      "digest",
+      "__init__",
+      "state",
+      "step"
+    ],
+    "classes": [
+      "BiologicalParameters",
+      "BiologicalCompartment",
+      "PhysiologicalRegulation",
+      "BiologicalState",
+      "BiologyWorld"
+    ]
+  },
+  {
+    "path": "aire/aire_tmp/universe/persistence.py",
+    "lines": 299,
+    "functions": [
+      "_encode",
+      "_decode_array",
+      "_object_to_dict",
+      "_object_from_dict",
+      "serialize_world",
+      "deserialize_world",
+      "canonical_world_json",
+      "compare_worlds",
+      "serialize_commands",
+      "deserialize_commands",
+      "capture",
+      "restore",
+      "save",
+      "load",
+      "__init__",
+      "state",
+      "_record",
+      "add_object",
+      "update_object",
+      "remove_object",
+      "emit",
+      "step",
+      "checkpoint",
+      "branch",
+      "replay",
+      "command_log_payload",
+      "save_command_log",
+      "load_command_log",
+      "replay_from_commands",
+      "branch_comparison",
+      "command_log"
+    ],
+    "classes": [
+      "WorldCheckpoint",
+      "WorldCommand",
+      "WorldSession"
+    ]
+  },
+  {
+    "path": "aire/aire_tmp/universe/environment.py",
+    "lines": 531,
+    "functions": [
+      "_finite_nonnegative",
+      "_terrain",
+      "_latitude",
+      "_solar_field",
+      "_hydrograph",
+      "create_environment",
+      "_laplacian",
+      "_classify_biomes",
+      "step_environment",
+      "attach_environment",
+      "__post_init__",
+      "__setstate__",
+      "__setstate__",
+      "__post_init__",
+      "shape",
+      "water_volume",
+      "water_mass_kg",
+      "mean_temperature",
+      "digest",
+      "certified_step",
+      "__init__",
+      "state",
+      "step"
+    ],
+    "classes": [
+      "PlanetConfig",
+      "EnvironmentState",
+      "EnvironmentStepReport",
+      "EnvironmentWorld"
+    ]
+  },
+  {
+    "path": "aire/aire_tmp/universe/chemistry.py",
+    "lines": 270,
+    "functions": [
+      "_field",
+      "_arrhenius",
+      "create_chemistry",
+      "reaction_rates",
+      "step_chemistry",
+      "attach_chemistry",
+      "__post_init__",
+      "__post_init__",
+      "stoich",
+      "__post_init__",
+      "names",
+      "mass_balance",
+      "charge_balance",
+      "__post_init__",
+      "shape",
+      "total_moles",
+      "total_mass",
+      "total_charge",
+      "digest",
+      "__init__",
+      "state",
+      "step"
+    ],
+    "classes": [
+      "ChemicalSpecies",
+      "ChemicalReaction",
+      "ChemistryNetwork",
+      "ChemistryState",
+      "ChemistryWorld"
+    ]
+  },
+  {
+    "path": "aire/aire_tmp/universe/u5_consolidated.py",
+    "lines": 319,
+    "functions": [
+      "_nn",
+      "_bounded",
+      "create_u5_consolidated",
+      "_apply_relation_effects",
+      "_apply_evolution",
+      "step_u5_consolidated",
+      "_attach_consolidated",
+      "__post_init__",
+      "totals",
+      "digest",
+      "__post_init__",
+      "__post_init__",
+      "__post_init__",
+      "digest",
+      "__init__",
+      "state",
+      "step"
+    ],
+    "classes": [
+      "BiogeochemicalPools",
+      "EcologicalRelation",
+      "EvolutionTrait",
+      "U5ConsolidatedState",
+      "ConsolidatedEcologyWorld"
+    ]
+  },
+  {
+    "path": "aire/aire_tmp/universe/energy.py",
+    "lines": 115,
+    "functions": [
+      "__post_init__",
+      "__post_init__",
+      "__post_init__",
+      "total_stored_j",
+      "total_heat_loss_j",
+      "total_external_work_j",
+      "balance_residual_j",
+      "digest",
+      "assert_balanced"
+    ],
+    "classes": [
+      "EnergyReservoir",
+      "EnergyTransfer",
+      "EnergyLedger"
+    ]
+  },
+  {
+    "path": "aire/aire_tmp/universe/interdomain_uptake.py",
+    "lines": 125,
+    "functions": [
+      "_nn",
+      "_take_soil_batch",
+      "_take_cycle",
+      "step_nutrient_mineral_uptake"
+    ],
+    "classes": [
+      "UptakeReport"
+    ]
+  },
+  {
+    "path": "aire/aire_tmp/universe/si_soils.py",
+    "lines": 96,
+    "functions": [
+      "_field",
+      "_maps_equal",
+      "create_soil_minerals",
+      "step_soil_minerals",
+      "__post_init__",
+      "total_mineral_mass_kg",
+      "total_exported_mass_kg",
+      "initial_tracked_mass_kg",
+      "digest"
+    ],
+    "classes": [
+      "SoilMineralState"
+    ]
+  },
+  {
+    "path": "aire/aire_tmp/universe/v201_atmospheric_chemistry.py",
+    "lines": 120,
+    "functions": [
+      "_network",
+      "_gas_volume",
+      "_masses",
+      "_element_mass_kg",
+      "step_atmospheric_chemistry"
+    ],
+    "classes": [
+      "AtmosphericChemistryReport"
+    ]
+  },
+  {
+    "path": "aire/aire_tmp/universe/world_closure_v192.py",
+    "lines": 207,
+    "functions": [
+      "_nn",
+      "_transfer_material",
+      "transfer_biomass_to_ecology",
+      "transfer_waste_to_ecology",
+      "step_full_material_energy_closure",
+      "__post_init__",
+      "mass_split",
+      "__post_init__",
+      "digest",
+      "__post_init__",
+      "total_j",
+      "digest",
+      "apply_respiration"
+    ],
+    "classes": [
+      "MatterComposition",
+      "MatterClosureState",
+      "EnergyClosureState",
+      "V192ClosureReport",
+      "FullClosureReport"
+    ]
+  },
+  {
+    "path": "aire/aire_tmp/universe/interdomain_metabolism.py",
+    "lines": 254,
+    "functions": [
+      "_nn",
+      "_species",
+      "_remove_kg",
+      "_add_kg",
+      "_transfer_o2_from_environment",
+      "_add_environment_water",
+      "_balanced_contract_check",
+      "step_coupled_respiration",
+      "transfer_co2_to_ecology",
+      "__post_init__"
+    ],
+    "classes": [
+      "RespirationContract",
+      "CoupledMetabolismReport",
+      "CarbonTransferReport"
+    ]
+  },
+  {
+    "path": "aire/aire_tmp/universe/physical_coupling.py",
+    "lines": 81,
+    "functions": [
+      "_amount",
+      "transfer_environment_to_biology"
+    ],
+    "classes": [
+      "PhysicalTransferReport"
+    ]
+  },
+  {
+    "path": "aire/aire_tmp/universe/ecology.py",
+    "lines": 284,
+    "functions": [
+      "_nn",
+      "_frac",
+      "create_ecology",
+      "step_ecology",
+      "attach_ecology",
+      "__post_init__",
+      "digest",
+      "__post_init__",
+      "digest",
+      "__post_init__",
+      "__post_init__",
+      "total_population",
+      "total_resource",
+      "digest",
+      "__init__",
+      "state",
+      "step"
+    ],
+    "classes": [
+      "EcologicalResource",
+      "EcologicalPopulation",
+      "PredationLink",
+      "EcologyState",
+      "EcologyWorld"
+    ]
+  },
+  {
+    "path": "aire/aire_tmp/universe/interdomain_world.py",
+    "lines": 38,
+    "functions": [
+      "step_integrated_flux"
+    ],
+    "classes": [
+      "IntegratedFluxReport"
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "real_runner": "aire/run_alpha_genesis.py",
+  "adapter_added": "aire/reflection_adapter.py",
+  "alpha_python_files": 50,
+  "compile_errors": [],
+  "runtime_wiring_status": "adapter_ready_not_auto-injected",
+  "reason": "The exact prediction/action/outcome variables must be connected at the real decision-loop site; automatic textual injection would risk changing Alpha's semantics without a verified hook.",
+  "external_evaluator_untouched": true,
+  "grid_untouched": true
+}

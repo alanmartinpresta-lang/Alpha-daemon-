@@ -1,0 +1,78 @@
+{
+  "experiment": "Alpha True Self-Edit Run 3",
+  "actual_alpha_files": 47,
+  "functions_inventory": 578,
+  "candidates_generated": 6,
+  "baseline_train_mean": 1.0088,
+  "baseline_holdout_mean": 1.0088,
+  "results": [
+    {
+      "candidate": 0,
+      "file": "aire/alpha_world.py",
+      "function": "create_alpha_world",
+      "line": 487,
+      "compiled": false,
+      "train_mean": null,
+      "holdout_mean": null,
+      "adopted": false,
+      "error": "  File \"/tmp/alpha_r3_candidate_0/aire/alpha_world.py\", line 488\n    _alpha_self_revision = 1\n                           ^\nSyntaxError: invalid syntax. Perhaps you forgot a comma?\n"
+    },
+    {
+      "candidate": 1,
+      "file": "aire/alpha_world.py",
+      "function": "_cell_for_position",
+      "line": 101,
+      "compiled": false,
+      "train_mean": null,
+      "holdout_mean": null,
+      "adopted": false,
+      "error": "Sorry: IndentationError: expected an indented block after function definition on line 101 (alpha_world.py, line 102)"
+    },
+    {
+      "candidate": 2,
+      "file": "aire/alpha_world.py",
+      "function": "_local_environment",
+      "line": 110,
+      "compiled": false,
+      "train_mean": null,
+      "holdout_mean": null,
+      "adopted": false,
+      "error": "Sorry: IndentationError: expected an indented block after function definition on line 110 (alpha_world.py, line 111)"
+    },
+    {
+      "candidate": 3,
+      "file": "aire/alpha_world.py",
+      "function": "sense",
+      "line": 121,
+      "compiled": false,
+      "train_mean": null,
+      "holdout_mean": null,
+      "adopted": false,
+      "error": "Sorry: IndentationError: expected an indented block after function definition on line 121 (alpha_world.py, line 122)"
+    },
+    {
+      "candidate": 4,
+      "file": "aire/alpha_world.py",
+      "function": "_nearest_object",
+      "line": 139,
+      "compiled": false,
+      "train_mean": null,
+      "holdout_mean": null,
+      "adopted": false,
+      "error": "Sorry: IndentationError: expected an indented block after function definition on line 139 (alpha_world.py, line 140)"
+    },
+    {
+      "candidate": 5,
+      "file": "aire/alpha_world.py",
+      "function": "_material_action",
+      "line": 149,
+      "compiled": false,
+      "train_mean": null,
+      "holdout_mean": null,
+      "adopted": false,
+      "error": "Sorry: IndentationError: expected an indented block after function definition on line 149 (alpha_world.py, line 150)"
+    }
+  ],
+  "adopted_candidate": null,
+  "important_note": "Candidate proposals are generated from Alpha source structure; no ChatGPT weights are injected. Adoption requires held-out behavioral improvement."
+}

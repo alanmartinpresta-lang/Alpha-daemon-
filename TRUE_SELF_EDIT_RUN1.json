@@ -1,0 +1,12 @@
+{
+  "scope": "aire/ Alpha implementation only",
+  "candidate_file": "aire/alpha_world.py",
+  "line": 487,
+  "old_value": 1.0,
+  "new_value": 1.05,
+  "compiled": true,
+  "adopted": false,
+  "diff": "",
+  "error": null,
+  "reason_not_adopted": "A code patch is not accepted without a behavioral test against held-out grids."
+}
