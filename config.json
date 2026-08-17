@@ -1,0 +1,5 @@
+{
+  "enabled": false,
+  "endpoint": "http://localhost:8787/exchange",
+  "note": "Laisser disabled=true tant qu'aucune passerelle serveur n'est déployée."
+}

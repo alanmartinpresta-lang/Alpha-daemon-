@@ -1,0 +1,9 @@
+{
+  "name":"ALPHA LAB",
+  "short_name":"ALPHA",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#030303",
+  "theme_color":"#050505",
+  "lang":"fr"
+}

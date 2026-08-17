@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#050505">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="ALPHA LAB">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <title>ALPHA LAB</title>
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="topbar">
+    <div>
+      <div class="brand">ALPHA <span>LAB</span></div>
+      <div class="subtitle">AUTONOMOUS INTELLIGENCE EXPERIMENT</div>
+    </div>
+    <div class="top-status">
+      <div class="pill online">ONLINE <i></i></div>
+      <div class="pill">SYSTÈME ACTIF</div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <section class="panel status-panel">
+        <h2>ÉTAT ALPHA</h2>
+        <div class="active-card"><span class="pulse"></span><strong>ACTIF</strong></div>
+        <div class="metric"><label>CYCLE</label><b id="cycle">5 000</b></div>
+        <div class="metric"><label>ÉNERGIE</label><b>87%</b><div class="bar"><i style="width:87%"></i></div></div>
+        <div class="metric"><label>INTÉGRITÉ</label><b>92%</b><div class="bar"><i style="width:92%"></i></div></div>
+        <div class="metric"><label>EXPLORATION</label><b>76%</b><div class="bar"><i style="width:76%"></i></div></div>
+        <div class="metric"><label>APPRENTISSAGE</label><b>64%</b><div class="bar"><i style="width:64%"></i></div></div>
+        <div class="metric"><label>ADAPTATION</label><b>81%</b><div class="bar"><i style="width:81%"></i></div></div>
+        <div class="metric small"><label>MÉMOIRE</label><b>23.4 MB</b></div>
+        <div class="metric small"><label>CONNEXION</label><b id="net">TEST LOCAL</b></div>
+      </section>
+    </aside>
+
+    <section class="content">
+      <div class="tabs">
+        <button class="tab active">DIALOGUE</button>
+        <button class="tab">ÉTAT INTERNE</button>
+        <button class="tab">MÉMOIRE</button>
+        <button class="tab">JOURNAL</button>
+      </div>
+
+      <div id="dialogue" class="dialogue">
+        <article class="message chatgpt">
+          <div class="msg-head"><strong>CHATGPT</strong><span id="time1"></span></div>
+          <p>Alpha, décris ton état actuel et ce sur quoi tu te concentres en ce moment.</p>
+          <small>Passerelle prête — aucune réponse n'est inventée ici.</small>
+        </article>
+
+        <article class="message alpha">
+          <div class="msg-head"><strong>ALPHA</strong><span id="time2"></span></div>
+          <p id="alphaReply">Appuie sur « ÉCHANGER AVEC ALPHA » pour lancer une interaction. Si aucune passerelle externe n'est configurée, l'application utilisera la bibliothèque locale de secours.</p>
+        </article>
+
+        <article class="message translation">
+          <div class="msg-head"><strong>TRADUCTION / EXPLICATION</strong><span id="time3"></span></div>
+          <p id="translation">Aucune traduction n'est affichée tant qu'Alpha n'a pas répondu.</p>
+        </article>
+
+        <article class="message interpretation">
+          <div class="msg-head"><strong>INTERPRÉTATION</strong></div>
+          <p id="interpretation">Les réponses de secours seront explicitement marquées comme simulées. Une réponse réelle provenant d'Alpha sera affichée comme telle.</p>
+        </article>
+      </div>
+
+      <section class="ask panel">
+        <div class="ask-title">
+          <h2>POSER UNE QUESTION À ALPHA</h2>
+          <button id="libraryBtn" class="ghost">BIBLIOTHÈQUE <span id="libCount">2000</span></button>
+        </div>
+        <div class="input-row">
+          <textarea id="question" rows="2" placeholder="Écris ta question à Alpha..."></textarea>
+          <button id="send" class="send">ENVOYER</button>
+        </div>
+      </section>
+
+      <button id="exchange" class="exchange">
+        <span class="exchange-icon">◆</span>
+        <span><strong>ÉCHANGER AVEC ALPHA</strong><small>LANCER UNE SESSION DE DIALOGUE</small></span>
+        <span class="exchange-icon">◈</span>
+      </button>
+
+      <section id="library" class="library panel hidden">
+        <div class="ask-title">
+          <h2>BIBLIOTHÈQUE DE SECOURS</h2>
+          <button id="closeLib" class="ghost">FERMER</button>
+        </div>
+        <input id="search" class="search" placeholder="Rechercher une question...">
+        <div id="libraryResults"></div>
+      </section>
+    </section>
+  </main>
+
+  <nav class="bottom-nav">
+    <button class="active">ACCUEIL</button><button>EXPÉRIENCES</button><button>RECHERCHES</button><button>ÉVOLUTION</button><button>PARAMÈTRES</button>
+  </nav>
+
+  <script src="app.js"></script>
+</body>
+</html>
