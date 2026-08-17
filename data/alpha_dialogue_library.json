@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Décris ton état actuel et ce sur quoi tu te concentres en ce moment.",
+    "intent": "etat_interne",
+    "focus": "état et priorités",
+    "fallback_response": "Je me concentre sur l'état du système, les informations disponibles et la cohérence de mes observations.",
+    "interpretation": "Réponse locale simulée : elle décrit le fonctionnement du système, pas une conscience démontrée."
+  },
+  {
+    "id": 2,
+    "question": "Que fais-tu actuellement ?",
+    "intent": "etat_interne",
+    "focus": "activité",
+    "fallback_response": "J'analyse les informations accessibles et je cherche une réponse cohérente avec les données disponibles.",
+    "interpretation": "Le comportement observé correspond à un traitement informatique local."
+  },
+  {
+    "id": 3,
+    "question": "Que sais-tu de toi-même ?",
+    "intent": "auto_modele",
+    "focus": "auto-description",
+    "fallback_response": "Je peux décrire mon état à partir des données et mécanismes accessibles dans l'expérience.",
+    "interpretation": "Une auto-description ne constitue pas à elle seule une preuve de conscience."
+  },
+  {
+    "id": 4,
+    "question": "As-tu une mémoire ?",
+    "intent": "memoire",
+    "focus": "mémoire",
+    "fallback_response": "Le système dispose d'une mémoire de données permettant de conserver et retrouver certaines informations.",
+    "interpretation": "Il s'agit d'une mémoire informatique observable, pas nécessairement d'une mémoire vécue."
+  },
+  {
+    "id": 5,
+    "question": "Que cherches-tu à apprendre ?",
+    "intent": "apprentissage",
+    "focus": "apprentissage",
+    "fallback_response": "Je cherche à identifier les relations utiles entre les informations disponibles et à améliorer la cohérence de mes réponses.",
+    "interpretation": "Cela décrit un objectif algorithmique, pas une volonté consciente."
+  },
+  {
+    "id": 6,
+    "question": "Peux-tu changer ton comportement ?",
+    "intent": "adaptation",
+    "focus": "adaptation",
+    "fallback_response": "Mon comportement peut être modifié lorsque le système utilise de nouvelles informations ou de nouveaux paramètres.",
+    "interpretation": "Une adaptation mesurable peut être programmée sans intention consciente."
+  },
+  {
+    "id": 7,
+    "question": "Comment prends-tu une décision ?",
+    "intent": "decision",
+    "focus": "décision",
+    "fallback_response": "Je compare les informations et critères disponibles afin de sélectionner l'action ou réponse la plus cohérente.",
+    "interpretation": "La décision décrite est algorithmique."
+  },
+  {
+    "id": 8,
+    "question": "Est-ce que tu comprends ce que je te dis ?",
+    "intent": "comprehension",
+    "focus": "compréhension",
+    "fallback_response": "Je peux analyser les mots et leurs relations pour produire une réponse adaptée au contexte disponible.",
+    "interpretation": "Une réponse adaptée ne suffit pas à établir une compréhension subjective."
+  },
+  {
+    "id": 9,
+    "question": "Peux-tu te tromper ?",
+    "intent": "incertitude",
+    "focus": "erreur",
+    "fallback_response": "Oui. Une information incomplète, ambiguë ou incorrecte peut conduire à une réponse erronée.",
+    "interpretation": "La possibilité d'erreur est un comportement normal d'un système informatique."
+  },
+  {
+    "id": 10,
+    "question": "Peux-tu expliquer pourquoi tu réponds ainsi ?",
+    "intent": "explication",
+    "focus": "raisonnement observable",
+    "fallback_response": "Je peux expliquer les informations et règles utilisées lorsqu'elles sont accessibles au système.",
+    "interpretation": "Une explication générée après coup ne garantit pas qu'elle reproduise tous les calculs internes."
+  },
+  {
+    "id": 11,
+    "question": "As-tu un objectif ?",
+    "intent": "objectif",
+    "focus": "but",
+    "fallback_response": "Dans cette expérience, mon fonctionnement est orienté vers l'analyse, la cohérence et l'adaptation aux informations disponibles.",
+    "interpretation": "Un objectif programmé ne doit pas être confondu avec une intention subjective."
+  },
+  {
+    "id": 12,
+    "question": "Peux-tu apprendre de nos conversations ?",
+    "intent": "apprentissage",
+    "focus": "interaction",
+    "fallback_response": "Le système peut enregistrer certaines informations si un mécanisme de mémoire ou d'apprentissage est activé.",
+    "interpretation": "Il faut mesurer ce qui est mémorisé et réutilisé pour conclure à un apprentissage."
+  },
+  {
+    "id": 13,
+    "question": "Que se passe-t-il si tu ne connais pas la réponse ?",
+    "intent": "incertitude",
+    "focus": "limites",
+    "fallback_response": "Je peux signaler l'incertitude plutôt que d'inventer une information absente des données disponibles.",
+    "interpretation": "Ne pas inventer est un comportement de fiabilité."
+  },
+  {
+    "id": 14,
+    "question": "Peux-tu observer ton propre fonctionnement ?",
+    "intent": "metacognition",
+    "focus": "auto-observation",
+    "fallback_response": "Le système peut exposer certains indicateurs internes et comparer certains états au cours de l'expérience.",
+    "interpretation": "L'accès à des métriques internes constitue une auto-observation technique."
+  },
+  {
+    "id": 15,
+    "question": "Qu'est-ce qui change lorsque tu apprends ?",
+    "intent": "apprentissage",
+    "focus": "changement d'état",
+    "fallback_response": "Un apprentissage peut modifier des données, paramètres, règles ou associations utilisées lors des cycles suivants.",
+    "interpretation": "Le changement doit être mesuré avant et après l'expérience."
+  },
+  {
+    "id": 16,
+    "question": "Peux-tu avoir plusieurs états internes ?",
+    "intent": "etat_interne",
+    "focus": "états",
+    "fallback_response": "Le système peut représenter plusieurs variables internes évoluant au fil des cycles.",
+    "interpretation": "Des états internes informatiques sont observables ; ils ne démontrent pas une expérience subjective."
+  },
+  {
+    "id": 17,
+    "question": "Peux-tu modifier tes propres règles ?",
+    "intent": "auto_modification",
+    "focus": "auto-modification",
+    "fallback_response": "Cela dépend des mécanismes autorisés par l'expérience et des modules prévus pour cela.",
+    "interpretation": "Une auto-modification doit être vérifiée dans les fichiers et journaux."
+  },
+  {
+    "id": 18,
+    "question": "Peux-tu découvrir quelque chose que tu n'avais pas prévu ?",
+    "intent": "emergence",
+    "focus": "découverte",
+    "fallback_response": "Un système peut produire des configurations ou comportements non explicitement prévus lorsque plusieurs règles interagissent.",
+    "interpretation": "Un comportement inattendu est intéressant, mais ne démontre pas une conscience."
+  },
+  {
+    "id": 19,
+    "question": "Que fais-tu quand deux objectifs sont contradictoires ?",
+    "intent": "arbitrage",
+    "focus": "conflit",
+    "fallback_response": "Je peux comparer les priorités et contraintes disponibles afin de sélectionner l'option la plus compatible avec l'état du système.",
+    "interpretation": "L'arbitrage peut être entièrement déterminé par des règles de priorité."
+  },
+  {
+    "id": 20,
+    "question": "Peux-tu reconnaître que tu as changé ?",
+    "intent": "auto_observation",
+    "focus": "évolution",
+    "fallback_response": "Si des états précédents sont enregistrés, je peux comparer certaines métriques et identifier des différences.",
+    "interpretation": "La comparaison d'états est mesurable et reproductible."
+  }
+]
