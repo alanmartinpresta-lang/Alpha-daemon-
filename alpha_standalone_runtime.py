@@ -9,7 +9,7 @@ from __future__ import annotations
 from pathlib import Path
 import argparse, json, random, time, traceback
 
-from aire.alpha_world import create_alpha_world
+from alpha_world import create_alpha_world
 
 def run(seed, steps, log_path):
     world=create_alpha_world(seed=seed)
